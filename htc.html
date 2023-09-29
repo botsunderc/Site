@@ -30,11 +30,6 @@
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
   background: #444444;}
-
-.responsive-image {
-    max-width: 100%;
-    height: auto;
-  }
 button {
   background-color: dimgrey;
   border: none;
@@ -53,13 +48,23 @@ button {
   background-color: #555555;
   color: white;
 }
+  @media (min-width: 769px) {
+    .container {
+        margin-left: 25%;
+    }
+}
+@media (max-width: 768px) {
+    .container {
+        margin: 1%;
+    }
+}
 </style>
 <body id="myPage">
 
 
 <!-- Image Header -->
 <div class="w3-display-container w3-animate-opacity">
-    <a href="https://www.hacktcat.com"><img src="https://cdn.discordapp.com/attachments/1146406609094967337/1149299324434530344/E721F724-8960-4568-9C1E-82EEC4178ED0-fotor-2023090719438.jpg" style="width:100%"></a>
+    <a href="https://www.hacktcat.com"><img src="https://cdn.discordapp.com/avatars/1140593617526857752/d751bba224a1ee695669512d73694c98.webp?size=1024&width=0&height=320" style="width:100%"></a>
   <div class="w3-container w3-display-bottomleft w3-margin-bottom">
   </div>
 </div>
@@ -72,7 +77,8 @@ button {
     <p style="color: white; font-size: 20px">by rodion_0</p>
   <div class="w3-center"><a href="https://discord.com/api/oauth2/authorize?client_id=1137052528790491228&permissions=281624&scope=bot%20applications.commands"><button class="button button5">Invite</button></a><a href="https://top.gg/bot/1140593617526857752"><button class="button button5">Top.gg</button></a><a href="https://dsc.gg/htctree"><button class="button button5">Support Server</button></a></div>
         </div>
-    <div style="margin-left: 25%">
+  <p><br></p>
+    <div class="container">
         <h3 style="color: darkgrey;" >Hack and manipulate the system of cats (no illegal activities included) 🐈‍⬛ 💻</h3>
         <h4 style="color: darkgrey; float: left">Interested in a Discord bot that's one of a kind? Well, check out Hack the Cat! No special permissions needed except for managing webhooks. Fear not: You don't have to worry if you have a pet cat. It will not be included in this cat-changing catastrophe... or will it?<br><br>
         Hack the Cat is an interactive Discord game bot suitable for all ages. It is safe for work and is usually the preference of those who loves cats. It is constantly under development, but you are always welcomed to test it out. It includes stories that vary depending on the choices you make.<br><br>
